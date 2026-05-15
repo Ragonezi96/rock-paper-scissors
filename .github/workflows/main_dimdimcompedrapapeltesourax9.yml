@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'dimdimcompedrapapeltesourax9'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B6AC554DF2E74029A1E3B52E737EA1D4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B133E8973D9A47CAB2814D124A4545F5 }}
           package: '*.war'
