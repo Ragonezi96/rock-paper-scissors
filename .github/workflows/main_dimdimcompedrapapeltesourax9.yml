@@ -39,7 +39,7 @@ jobs:
           name: java-app
 
       - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@v3
         with:
           app-name: 'dimdimcompedrapapeltesourax9'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B133E8973D9A47CAB2814D124A4545F5 }}
